@@ -1,0 +1,125 @@
+
+
+
+react---js library (front end library)
+-------------------------------------
+
+Basic commands
+
+-to create project :npx create-react-app projectname
+-to run project :npm start
+
+-to install react meterial------npm install @mui/material @emotion/react @emotion/styled
+
+-to install react bootstrap :npm install react-bootstrap bootstrap
+
+Basic concepts
+
+-reusable component based approach
+-jsx:javascript xml
+-fast
+
+front end difference
+
+concept                            angular                                 react                                       vue
+--------------------------------------------------------------------------------------------------------------------------
+1.Developer                    framework---google                      Library-----meta/facebook                     framework--opensource
+
+2.Language                     typescript                              javascript                                    javascript
+
+3.Dom                          real dom                                virtual dom                                   virtual dom
+
+4.Data sharing                 two data binding                        one way data binding                          two way data binding
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+components 
+
+   to design webpage section wise and combine them , it can be reuesd 
+
+   reat is component based application
+
+     it is of two type:
+
+     1. Class based components:       
+        == A class is used to generate component , the instruction of logic is inside the class
+
+          class based is oftenly used in the early state of react
+
+          🛑 also called  stateful components(by default all function for creating state is available )
+         ========================================
+     2.function based components :
+        == A function is used to generate component , the instruction of logic is inside the function
+
+          function based is used more recently 
+
+          🛑 also called  stateless components(by default function for creating state is not availabe)
+
+         ❌ creation of component : create a js file having a name starting with capital letter
+
+
+ ✡️ react hook : it is a pre defined function and name starts with use key word
+
+--------
+ ✅Use predefind-function()
+
+  methode of creatingb state
+ ✅Use state()
+
+ syntax for state creation
+ const[statename,statevalueupdationfunction]=useState('')
+
+      ✅ state : is used to store values (advantage: it can transfer value) we can share state to child components
+
+     ****** To load the structure of functional  component 
+
+
+               🛑 rfce (react functional componant  export )
+
+               jsx code can be simple written inside the return statment
+
+                return(
+
+                    jsx code 
+               )
+
+
+               
+
+
+
+
+
+
+      to load the structure of class  component
+
+          🛑 rcc(react class componants) 
+
+          jsx code has to be written inside return and render statment
+
+          eg:  render(){
+
+               return(
+
+                    jsx code 
+               )
+          }
+
+
+
+⭕ in react data binding is possible in only one way 
+
+   parent to child
+
+   in the components App.js is the parent component and others are child components
+
+   all the other components are linked to app.js
+
+
+🛑 to get data from the input box the data ,the input boxes are in the jsx format it has to convert to js format 
+
+    to store the data in js format we use 'state'
+
+
+✡️The methode used to get value from input when a function processing
+---------------------------------------------------------------------
